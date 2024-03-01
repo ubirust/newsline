@@ -1,3 +1,5 @@
+from django.contrib.contenttypes.fields import GenericForeignKey
+from django.contrib.contenttypes.models import ContentType
 from django.db import models
 from django.contrib.auth.models import User
 
@@ -22,3 +24,18 @@ class Advertisement(models.Model):
     image = models.ImageField(upload_to='advertisements/')
     link = models.URLField()
     publication_date = models.DateTimeField(auto_now_add=True)
+
+
+class Event(models.Model):
+    EVENT_TYPES = (
+        ('note', 'Note'),
+        ('achievement', 'Achievement'),
+        ('advertisement', 'Advertisement'),
+    )
+
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
+    object_id = models.PositiveIntegerField()
+    content_object = GenericForeignKey('content_type', 'object_id')
+    event_type = models.CharField(max_length=20, choices=EVENT_TYPES)
+    timestamp = models.DateTimeField(auto_now_add=True)

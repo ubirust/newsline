@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40922b0a-d548-4689-a58e-e42fbd7aa463" name="Changes" comment="Добавил serializers.py">
+    <list default="true" id="40922b0a-d548-4689-a58e-e42fbd7aa463" name="Changes" comment="Добавил viewset в NoteViewSet в views.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsline_drf/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/newsline_drf/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsline_drf/line/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/newsline_drf/line/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsline_drf/line/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/newsline_drf/line/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsline_drf/line/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/newsline_drf/line/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/newsline_drf/line/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/newsline_drf/line/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/newsline_drf/newsline_drf/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/newsline_drf/newsline_drf/urls.py" afterDir="false" />
     </list>
@@ -63,7 +67,9 @@
       <updated>1709199771637</updated>
       <workItem from="1709199783011" duration="4474000" />
       <workItem from="1709206143604" duration="40000" />
-      <workItem from="1709206203291" duration="3066000" />
+      <workItem from="1709206203291" duration="4228000" />
+      <workItem from="1709278644210" duration="6207000" />
+      <workItem from="1709295286577" duration="665000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил serializers.py">
       <option name="closed" value="true" />
@@ -73,7 +79,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709206915954</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавил viewset в NoteViewSet в views.py">
+      <option name="closed" value="true" />
+      <created>1709216465575</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709216465575</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Добавил serializers.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил serializers.py" />
+    <MESSAGE value="Добавил viewset в NoteViewSet в views.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил viewset в NoteViewSet в views.py" />
   </component>
 </project>
